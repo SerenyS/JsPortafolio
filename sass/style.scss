@@ -1,0 +1,28 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+$theme-bg: #f6f4f2;
+$primary: black;
+
+body {
+  background-color: $theme-bg;
+  font-family: "Raleway", sans-serif;
+}
+
+footer {
+  background-color: #7e7878;
+}
+
+.jumbotron-image {
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#about {
+  background-color: #e9ebef;
+}
+#services {
+  background-color: #dce1d9;
+}
+.btn{
+  background-color: $primary;
+}
